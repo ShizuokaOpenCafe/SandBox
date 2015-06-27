@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>PacificCoastBicycleRoad.kml</name>
+		<name>PacificCoastCycleTrack.kml</name>
 		<Placemark>
 			<name>太平洋岸自転車道</name>
 			<styleUrl>#line-00007F-5-nodesc</styleUrl>
