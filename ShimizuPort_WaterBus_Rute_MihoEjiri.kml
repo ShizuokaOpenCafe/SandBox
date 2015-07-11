@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>清水港水上バスルート</name>
+		<Placemark>
+			<name>始点</name>
+			<styleUrl>#icon-61-nodesc</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.5180963,35.0161022,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>清水港水上バス（三保・江尻）</name>
+			<styleUrl>#line-DF0101-1-nodesc</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>138.5180903,35.0160713,0.0 138.517132,35.016096,0.0 138.516599,35.016155,0.0 138.516089,35.016256000000006,0.0 138.5155531,35.0164796,0.0 138.515083,35.016742,0.0 138.512582,35.018398,0.0 138.51138,35.019205,0.0 138.5108284,35.0195082,0.0 138.510195,35.019763,0.0 138.509643,35.019891,0.0 138.507069,35.020237,0.0 138.504382,35.0206018,0.0 138.5035286,35.0206147,0.0 138.5027491,35.0204192,0.0 138.5019948,35.0202129,0.0 138.5011738,35.0198254,0.0 138.4987555,35.0175925,0.0 138.498459,35.017389,0.0 138.498243,35.017269,0.0 138.497955,35.017151,0.0 138.49773450000004,35.0170728,0.0 138.49747890000003,35.0170461,0.0 138.4972037,35.017079,0.0 138.497009,35.017172,0.0 138.4910225,35.0207132,0.0 138.4909723,35.0207527,0.0 138.4909393,35.0207989,0.0 138.4909363,35.02084,0.0</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>終点</name>
+			<styleUrl>#icon-123-nodesc</styleUrl>
+			<ExtendedData>
+			</ExtendedData>
+			<Point>
+				<coordinates>138.490933,35.02084,0.0</coordinates>
+			</Point>
+		</Placemark>
+		<Style id='icon-123-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-123-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-123-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-123-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-123-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-61-nodesc-normal'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-61-nodesc-highlight'>
+			<IconStyle>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-61-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-61-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-61-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='line-DF0101-1-nodesc-normal'>
+			<LineStyle>
+				<color>ff0101DF</color>
+				<width>1</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='line-DF0101-1-nodesc-highlight'>
+			<LineStyle>
+				<color>ff0101DF</color>
+				<width>2.0</width>
+			</LineStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='line-DF0101-1-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#line-DF0101-1-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#line-DF0101-1-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
